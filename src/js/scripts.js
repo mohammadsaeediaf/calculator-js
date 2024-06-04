@@ -8,9 +8,14 @@ function press(num) {
 }
 
 function equal() {
-  expression = eval(expression);
-  userInput.value = expression;
-  //   expression = "";
+  console.log(expression.length);
+  if (expression.length > 3) {
+    expression = eval(expression);
+    userInput.value = expression;
+    //   expression = "";
+  } else {
+    return;
+  }
 }
 
 function reset() {

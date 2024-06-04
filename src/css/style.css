@@ -30,6 +30,9 @@ body {
   direction: ltr;
   border: none;
   outline: none;
+  font-size: 25px;
+  padding-right: 20px;
+  margin: 10px 0;
 }
 
 .btn {
@@ -40,6 +43,7 @@ body {
   outline: none;
   margin: 2px 0;
   background: whitesmoke;
+  font-size: 18px;
 }
 
 .btn-equal {
@@ -50,6 +54,7 @@ body {
   outline: none;
   margin: 2px 0;
   background: whitesmoke;
+  font-size: 18px;
 }
 
 .btn:hover,
@@ -57,16 +62,14 @@ body {
   background: rgb(128, 128, 128, 0.1);
 }
 
-
-@media screen and (max-width: 480px ) {
-    .btn{
-        width: 23%;
-    }
+@media screen and (max-width: 480px) {
+  .btn {
+    width: 23%;
+  }
 }
 
-
-@media screen and (max-width: 240px ) {
-    .btn-equal{
-        width: 23%;
-    }
+@media screen and (max-width: 240px) {
+  .btn-equal {
+    width: 23%;
+  }
 }
