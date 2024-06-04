@@ -30,7 +30,8 @@ body {
   direction: ltr;
   border: none;
   outline: none;
-  font-size: 25px;
+  font-size: 25px; 
+  
   padding-right: 20px;
   margin: 10px 0;
 }
