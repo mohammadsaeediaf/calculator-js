@@ -12,13 +12,13 @@ body {
 }
 
 .calculator {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 370px;
   margin: auto;
   border-radius: 5px;
   background: #f2f2f2;
   padding: 15px 15px 20px 20px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
 #userInput {
@@ -30,6 +30,10 @@ body {
   direction: ltr;
   border: none;
   outline: none;
+  font-size: 25px;
+
+  padding-right: 20px;
+  margin: 10px 0;
 }
 
 .btn {
@@ -40,6 +44,7 @@ body {
   outline: none;
   margin: 2px 0;
   background: whitesmoke;
+  font-size: 18px;
 }
 
 .btn-equal {
@@ -50,6 +55,7 @@ body {
   outline: none;
   margin: 2px 0;
   background: whitesmoke;
+  font-size: 18px;
 }
 
 .btn:hover,
@@ -57,16 +63,14 @@ body {
   background: rgb(128, 128, 128, 0.1);
 }
 
-
-@media screen and (max-width: 480px ) {
-    .btn{
-        width: 23%;
-    }
+@media screen and (max-width: 480px) {
+  .btn {
+    width: 23%;
+  }
 }
 
-
-@media screen and (max-width: 240px ) {
-    .btn-equal{
-        width: 23%;
-    }
+@media screen and (max-width: 240px) {
+  .btn-equal {
+    width: 23%;
+  }
 }

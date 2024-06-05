@@ -10,7 +10,7 @@ function press(num) {
 function equal() {
   expression = eval(expression);
   userInput.value = expression;
-  //   expression = "";
+  expression = "";
 }
 
 function reset() {
